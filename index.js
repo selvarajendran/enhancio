@@ -9,6 +9,14 @@ import thunk from 'redux-thunk';
 
 import GithubUsersList from './reducers/GithubUsersList';
 
+import styled from 'styled-components';
+
+const Application = styled.div`
+  width: 60vw;
+  margin: 0 auto;
+  font-family: sans-serif;
+`;
+
 //Intialize Redux Store
 let store = createStore(
   GithubUsersList,
@@ -19,9 +27,9 @@ let store = createStore(
 class App extends React.Component {
   render() {
     return (
-      <div className="app">
-        <GithubList store = { store }/>
-      </div>
+      <Application>
+        <GithubList />
+      </Application>
     )
   }
 }
