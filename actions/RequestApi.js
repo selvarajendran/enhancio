@@ -11,14 +11,19 @@ function RequestApi() {
         if(response.message) {
           dispatch(FetchFailure(response.message))
         } else {
-          const users = response.data.map(user => {return user});
-          //dispatch FetchSuccess, order 2
-          dispatch(FetchSuccess(users))
+          let finalUsers = [];
+          const users = response.data.map(user => {
+            axios.get(user.url)
+              .then(res => {
+                finalUsers.push(res.data);
+                dispatch(FetchSuccess(finalUsers))
+              })
+          });
         }
       })
       .catch(e => {
         //dispatch FetchFailure, order 3
-        dispatch(FetchFailure(e))
+        dispatch(FetchFailure(e.response.data.message))
       });
 
     //dispatch FetchRequest, order 1

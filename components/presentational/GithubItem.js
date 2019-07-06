@@ -16,7 +16,7 @@ const GithubItem = (props) => {
                 </div>
             </div>
             <div className="itemDescription paddingTop">
-                {props.description || "Description not found"}
+                {props.description || props.company || "Description not found"}
             </div>
             <div className="itemFooter paddingTop displayFlex">
                 <div className="itemLocation">
