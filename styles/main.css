@@ -1,0 +1,48 @@
+#app {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.paddingTop {
+    padding-top: 10px;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.paddingLeft {
+    padding-left: 10px;
+}
+
+.verticalAlign {
+    vertical-align: super;
+}
+
+.itemContainer {
+    border-top: 1px solid #8080808f;
+}
+
+.itemLeft {
+
+}
+
+.itemRight {
+
+}
+
+.itemHeader {
+    
+}
+
+.itemFooter {
+    color: grey;
+}
+
+.itemTitle {
+    color: #3F51B5;
+}
+
+.itemSubtitle {
+   
+}
