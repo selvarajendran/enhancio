@@ -15,6 +15,11 @@ const Application = styled.div`
   width: 60vw;
   margin: 0 auto;
   font-family: sans-serif;
+
+  @media screen and (max-width: 420px){
+    width: 90vw;
+   }
+
 `;
 
 //Intialize Redux Store

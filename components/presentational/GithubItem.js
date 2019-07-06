@@ -6,6 +6,7 @@ const MAIL_ICON = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAA
 
 const ItemContainer = styled.div`
     border-top: 1px solid #8080808f;
+    padding: 5px;
 `;
 
 const ItemFlexContainer = styled(ItemContainer)`
