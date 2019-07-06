@@ -1,0 +1,22 @@
+{
+  "name": "enhancio",
+  "version": "1.0.0",
+  "description": "Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selvarajendran/enhancio.git"
+  },
+  "keywords": [
+    "enhancio"
+  ],
+  "author": "selva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selvarajendran/enhancio/issues"
+  },
+  "homepage": "https://github.com/selvarajendran/enhancio#readme"
+}
