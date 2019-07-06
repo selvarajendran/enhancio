@@ -22,7 +22,10 @@
   "homepage": "https://github.com/selvarajendran/enhancio#readme",
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
